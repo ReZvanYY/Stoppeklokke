@@ -1,0 +1,106 @@
+.watchbody {
+    background-color: black;
+    border: solid;
+    border-radius: 100px;
+    height: 105px;
+    width: 350px;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.watch1 {
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    border: 4px solid;
+    border-color: black;
+    height: 50px;
+    width: 170px;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.watchstart {
+    background-color: black;
+    color: white;
+    letter-spacing: 6px;
+    height: 30px;
+}
+
+.watchstart:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0 0px 5px 0 green inset, 0 0px 5px 0 green,
+        0 0px 5px 0 green inset, 0 0px 5px 0 green;
+}
+
+.watchpause {
+    background-color: black;
+    color: white;
+    letter-spacing: 6px;
+    height: 30px;
+}
+
+.watchpause:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0px 5px 0 yellow inset, 0 0px 5px 0 yellow,
+        0 0px 5px 0 yellow inset, 0 0px 5px 0 yellow;
+}
+
+.watchreset {
+    background-color: black;
+    color: white;
+    letter-spacing: 6px;
+    letter-spacing: 6px;
+    height: 30px;
+}
+
+.watchreset:hover {
+    background-color: red;
+
+    box-shadow: 0 0px 5px 0 red inset, 0 0px 5px 0 red,
+        0 0px 5px 0 red inset, 0 0px 5px 0 red;
+}
+
+.list {
+    background-color: transparent;
+    color: transparent;
+    border: 3px solid;
+    border-color: transparent;
+    border-radius: 10% 10%;
+    height: 300px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    text-align: center;
+    font-size: x-large;
+
+
+
+}
+
+.list:hover {
+    background-color: rgba(12, 30, 192, 0.192);
+    border-color: rgba(12, 30, 192, 0.192);
+    color: black;
+
+    box-shadow: 0 5px 10px 0 rgba(12, 30, 192, 0.192) inset, 0 5px 10px 0 rgba(12, 30, 192, 0.192),
+        0 5px 10px 0 rgba(12, 30, 192, 0.192), 0 5px 10px 0 rgba(12, 30, 192, 0.192);
+}
